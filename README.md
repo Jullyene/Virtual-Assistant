@@ -1,45 +1,51 @@
-🚀 Desafio MultiCloud, DevOps & IA - AI Agents (Iniciante) 🚀
-Este projeto é uma adaptação do desafio MultiCloud, DevOps & IA com foco na criação de assistentes AI, utilizando as APIs da OpenAI e AWS, enquanto controla os custos utilizando a chave API gratuita da OpenAI. O objetivo principal foi explorar as funcionalidades da OpenAI e implementar um assistente de IA para automatizar tarefas, de acordo com as instruções dadas.
+# 🚀 Desafio MultiCloud, DevOps & IA - AI Agents (Iniciante) 🚀
 
-🔧 Tecnologias Utilizadas
-OpenAI GPT-4: Utilizado para criar o assistente AI e processar as instruções de forma automatizada.
-AWS (opcional, não utilizado diretamente no projeto): Planejado para ser usado no serviço AWS Bedrock, mas substituído pela API gratuita da OpenAI para evitar custos.
-Python: Linguagem utilizada para integração da API e automação de tarefas.
-Videoaula "Construindo seu Assistente Próprio" (Canal Asimov): Segui essa videoaula para aprender a construir e integrar o assistente AI.
-⚙️ Como Rodar o Projeto
-1. Configuração do Ambiente
-Clone o repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-Instale as dependências:
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Configuração da API da OpenAI:
-Crie uma conta no OpenAI.
-Gere sua chave da API gratuita.
-Adicione a chave da API ao seu ambiente. Você pode fazer isso com a variável de ambiente OPENAI_API_KEY.
-2. Executando o Projeto
-O projeto usa a API da OpenAI para criar um assistente AI. Para executá-lo, basta rodar o script principal:
-bash
-Copiar
-Editar
-python nome_do_script.py
-🚀 Desafios e Resultados
-Durante o desafio, explorei a criação de um assistente AI com a OpenAI para automatizar tarefas utilizando GPT-4, além de entender melhor os conceitos de MultiCloud e DevOps. A adaptação do uso de AWS Bedrock para a API gratuita da OpenAI foi uma maneira eficaz de controlar os custos, mantendo a essência do desafio.
+## Descrição
 
-Principais Resultados:
-Criar e integrar um assistente de IA utilizando GPT-4 da OpenAI.
-Evitar custos utilizando a API gratuita da OpenAI ao invés de AWS Bedrock.
-Aplicar conceitos de MultiCloud, DevOps e IA na prática.
-📚 Recursos
-Videoaula "Construindo seu Assistente Próprio" do Canal Asimov (utilizada como base para o aprendizado e construção do assistente).
-Documentação da OpenAI: Documentação oficial da OpenAI.
-Documentação da AWS: AWS Documentation.
-📝 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto faz parte de um desafio sobre **MultiCloud**, **DevOps** e **IA**, onde adaptei a criação de **Assistentes AI** utilizando as APIs da **OpenAI** e os recursos da **AWS**. O objetivo foi aprender a integrar tecnologias de nuvem, IA e automação de tarefas, mantendo o controle sobre custos, usando a **API gratuita da OpenAI**.
 
+Abaixo está o processo que segui para completar este desafio, incluindo as ferramentas que utilizei e como adaptei as etapas para evitar custos indesejados.
+
+## 💡 Etapas do Desafio
+
+### 1️⃣ **Criação de Assistente AI com OpenAI**
+
+- Utilizei a **API gratuita da OpenAI** para criar um assistente AI com **GPT-4**.
+- O assistente foi configurado para automatizar tarefas, e para a sua criação, segui a **videoaula "Construindo seu Assistente Próprio" do Canal Asimov**.
+- Embora o projeto mencione o uso de ferramentas como **Code Interpreter** e **Retrieval**, esses não foram usados diretamente no meu caso, já que a solução foi ajustada para não envolver custos extras.
+
+### 2️⃣ **Integração com AWS Bedrock (Adaptado)**
+
+- Para evitar custos, não utilizei os serviços pagos da **AWS Bedrock** e, em vez disso, utilizei a chave da **API gratuita da OpenAI**.
+- Dessa forma, mantive a essência do desafio sem gerar custos desnecessários.
+- A utilização do serviço da AWS foi substituída pela integração direta com a API da OpenAI, mantendo o foco na criação do assistente.
+
+## 🔧 Dicas e Recomendações
+
+- Comece com configurações simples e vá adicionando mais funcionalidades conforme ganhar experiência com as ferramentas.
+- A chave para aprender é a prática contínua, mesmo quando você não utiliza todos os recursos pagos disponíveis.
+  
+## 🚀 O que foi aprendido
+
+- Como criar um assistente AI básico utilizando a **OpenAI API**.
+- Como adaptar um desafio para não envolver custos extras, sem perder a oportunidade de aprender e aplicar novos conceitos.
+- A importância de entender as configurações básicas de **IA**, **MultiCloud** e **DevOps**.
+
+## 🔗 Links
+
+- [OpenAI Platform](https://platform.openai.com/)
+- [AWS Console](https://console.aws.amazon.com)
+- [Canal Asimov - Videoaula "Construindo seu Assistente Próprio"](https://www.youtube.com/c/CanalAsimov)
+
+## 🛠 Tecnologias Utilizadas
+
+- **OpenAI GPT-4**
+- **AWS (adaptado para evitar custos)**
+- **Python**
+
+## 📌 Como Rodar o Projeto
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
